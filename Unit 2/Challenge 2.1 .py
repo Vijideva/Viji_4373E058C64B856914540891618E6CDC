@@ -10,7 +10,7 @@ class BankAccount:
             self.__account_balance += amount
             print(f"Deposited ${amount}. New balance: ${self.__account_balance:.2f}")
         else:
-            print("Invalid deposit amount. Amount must be greater than 0.")
+            print("Invalid  deposit amount. Amount must be greater than 0.")
 
     def withdraw(self, amount):
         if amount > 0:
