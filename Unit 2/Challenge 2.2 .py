@@ -8,7 +8,7 @@ class Batsman(Player):
 
 class Bowler(Player):
     def play(self):
-        print("The bowler is bowling.")
+        print("The  bowler is bowling.")
       
 batsman = Batsman()
 bowler = Bowler()
